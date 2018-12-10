@@ -8,7 +8,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (evil-magit neotree magit smex ido-vertical-mode evil-escape zenburn-theme evil-leader evil))))
+    (org-evil monitor evil-magit neotree magit smex ido-vertical-mode evil-escape zenburn-theme evil-leader evil))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -82,3 +82,4 @@
       evil-magit-use-y-for-yank nil
       )
 (require 'evil-magit)
+(require 'org-evil)
