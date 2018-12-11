@@ -28,7 +28,11 @@
             (define-key evil-normal-state-local-map (kbd "n") 'neotree-next-line)
             (define-key evil-normal-state-local-map (kbd "p") 'neotree-previous-line)
             (define-key evil-normal-state-local-map (kbd "A") 'neotree-stretch-toggle)
-            (define-key evil-normal-state-local-map (kbd "H") 'neotree-hidden-file-toggle)))
+            (define-key evil-normal-state-local-map (kbd "I") 'neotree-hidden-file-toggle)
+            (define-key evil-normal-state-local-map (kbd "h") 'neotree-enter)
+            (define-key evil-normal-state-local-map (kbd "r") 'neotree-rename-node)
+            (define-key evil-normal-state-local-map (kbd "d") 'neotree-delete-node)
+            (define-key evil-normal-state-local-map (kbd "c") 'neotree-create-node)))
 
 (require 'neotree)
 (setq neo-window-position 'right
